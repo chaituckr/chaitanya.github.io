@@ -1,13 +1,14 @@
 .ckrImg{
-  height: 300px;
+  width: 20%;
+  margin: auto;
   border-radius: 50%;
-  margin: 5% 40%;
-  box-shadow: 0px 0px 5px 5px currentColor;
+  padding: 4px;
+  box-shadow: 0px 0px 0px 4px #96c8c7;
+  background: darkslategray;
 }
 
 .nameTitle{
   margin: auto;
-  color: white;
   text-align: center;
   font-weight: bolder;
   font-family: fantasy;
@@ -15,5 +16,27 @@
 
 .descPara{
   text-align: center;
-  color: #97c8c6;
+  padding-bottom: 15px;
+}
+
+p{
+  color:#97c8c6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+}
+
+.techStack {
+  width: 100%;
+  height: 100px;
+  background-color: #89c6c7;
+  border-radius: 5px;
+  border: 1px dashed;
+}
+
+.reactRouterImg {
+  width: 10%;
+  position: relative;
+  top: 8px;
 }
